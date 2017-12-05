@@ -9,11 +9,13 @@ def sort_words(words):
 
 def print_first_word(words):
     """Prints the first word after popping it off."""
-    word = words.pop(0) # What does this do?
+    words = words.pop(0)
+    print word # Pop is a function that allows a word from a string to abe returned
+
 
 def print_last_word(words):
     """Prints the last word after popping it off."""
-    word = words.pop(-1)
+    words = words.pop(-1)
     print word
 
 def sort_sentence(sentence):
